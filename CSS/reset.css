@@ -1,0 +1,16 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+.clearfix::after,.clearfix::before{
+	content="";
+	display: block;
+}
+.clearfix::after{
+	clear: both;
+}
+a{
+	text-decoration: none;
+	color:#000000;
+}
